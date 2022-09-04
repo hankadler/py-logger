@@ -1,0 +1,26 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "579be1f743c688ceaf333c2664e35c669c7fb9a80dca54683cde86939e3f6fdf"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "header": {
+            "editable": true,
+            "git": "https://github.com/hankadler/python-header",
+            "ref": "00318658be58176211e6f250f90f33cb326003c2"
+        }
+    },
+    "develop": {}
+}

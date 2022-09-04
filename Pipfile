@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+header = {editable = true, ref = "v0.3.0", git = "https://github.com/hankadler/python-header"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

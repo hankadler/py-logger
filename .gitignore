@@ -1,0 +1,13 @@
+# exclude
+*
+
+# include
+!/logger
+!/logger/*.py
+!/tests
+!/tests/*.py
+!.gitignore
+!LICENSE
+!Pipfile
+!Pipfile.lock
+!README.md
