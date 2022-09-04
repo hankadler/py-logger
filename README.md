@@ -12,7 +12,7 @@ Built-in logger with added functions
 ## Features
 
 Adds ``get()``, a factory function that returns a **logger** object
-(see [logging](https://docs.python.org/3.8/library/logging.html))
+(see [logging](https://docs.python.org/3.10/library/logging.html))
 with minimal additions such that the LOG file:
 - Contains a header with useful meta-data for debugging and record keeping
 - Output is formatted to include necessary information for debugging, and is
@@ -21,11 +21,9 @@ with minimal additions such that the LOG file:
 ## Setup
 
 ```bash
-git clone https://github.com/hankadler/python-logger logger
-cd logger
-mkdir .venv
+# assumption: you're working on project with pipenv
 pipenv shell
-pipenv install
+pipenv install -e https://github.com/hankadler/python-logger
 ```
 
 ## Examples
