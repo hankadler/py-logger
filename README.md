@@ -1,4 +1,4 @@
-# logger
+# py-logger
 
 Built-in logger with added functions
 
@@ -23,7 +23,7 @@ with minimal additions such that the LOG file:
 ```bash
 # assumption: you're working on project with pipenv
 pipenv shell
-pipenv install -e git+https://github.com/hankadler/python-logger#egg=logger
+pipenv install -e git+https://github.com/hankadler/py-logger#egg=logger
 ```
 
 ## Examples
